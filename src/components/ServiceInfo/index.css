@@ -1,0 +1,46 @@
+.service-information__item {
+  width: calc(180px + 150 * ((100vw - 768px) / 1152));
+  margin: 3vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service-information__logo {
+  position: relative;
+  top: 10%;
+  width: 9.5%;
+}
+.service-information__logo img {
+  width: 100%;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.service-description {
+  width: 80%;
+}
+
+.service-description__header {
+  font-size: calc(14px + 8 * ((100vw - 319px) / 1601));
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1f2b34;
+}
+
+.service-description__text {
+  margin-top: 2vh;
+  font-size: calc(12px + 6 * ((100vw - 319px) / 1601));
+  font-weight: 400;
+  color: #3c4852;
+}
+
+@media screen and (max-width: 767px) {
+  .service-information__item {
+    width: 85%;
+  }
+}

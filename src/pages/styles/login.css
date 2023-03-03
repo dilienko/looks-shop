@@ -1,0 +1,96 @@
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shop-input {
+  display: block;
+  margin-top: 1.7vh;
+  width: calc(280px + 70 * ((100vw - 319px) / 1601));
+  height: 40px;
+  border: 1px solid hsl(0deg, 0%, 70%);
+  border-radius: 4px;
+  padding: 0 10px;
+  outline: none;
+  font-size: calc(14px + 2 * ((100vw - 319px) / 1601));
+}
+
+.form__header-item {
+  text-align: center;
+  color: inherit;
+  font-weight: 700;
+  font-size: calc(20px + 12 * ((100vw - 319px) / 1601));
+  margin: 0 10px;
+}
+.form__header-item:nth-child(2) {
+  margin: 0 !important;
+}
+.form__header-item.active {
+  color: rgb(212, 133, 13);
+}
+
+.form__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1.5vh 0;
+}
+
+.form-btn {
+  margin: 20px calc(5px + 5 * ((100vw - 319px) / 1601));
+}
+
+.auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.auth__paragraph {
+  font-weight: 700;
+  text-align: center;
+  font-size: calc(16px + 10 * ((100vw - 319px) / 1601));
+}
+
+.auth__google {
+  width: 230px;
+  aspect-ratio: 3.9/1;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.auth__google img {
+  width: 100%;
+  max-width: 100%;
+}
+.auth__google:hover {
+  -webkit-transform: scale(98.5%);
+          transform: scale(98.5%);
+}

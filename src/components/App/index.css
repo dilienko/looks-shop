@@ -1,0 +1,48 @@
+.main-block_position_centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: calc(310px + 540 * ((100vw - 319px) / 1601));
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(245, 245, 245, 0.25) 0px 10px 18px, rgba(240, 237, 237, 0.22) 0px 7px 7px;
+          box-shadow: rgba(245, 245, 245, 0.25) 0px 10px 18px, rgba(240, 237, 237, 0.22) 0px 7px 7px;
+  padding: 2vh 2.5%;
+  margin: 3vh 0;
+}
+
+.btn-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn_pos_right {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.shop-button {
+  padding: calc(10px + 5 * ((100vw - 319px) / 1601)) calc(15px + 15 * ((100vw - 319px) / 1601));
+  border-radius: 20px;
+  font-size: calc(13px + 5 * ((100vw - 319px) / 1601));
+  font-weight: 500;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.shop-button_color_green {
+  background-color: #008000;
+  color: white;
+}
+.shop-button_color_green:hover {
+  background-color: #074b07;
+}
